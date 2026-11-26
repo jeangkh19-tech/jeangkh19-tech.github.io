@@ -1204,6 +1204,33 @@ main {
   color: var(--accent);
 }
 
+.ai-declaration-section {
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+
+.ai-declaration-section h3 {
+  font-size: 1.35rem;
+  margin-bottom: 14px;
+}
+
+.ai-declaration-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 18px 22px;
+  box-shadow: var(--shadow-sm);
+}
+
+.ai-declaration-box p {
+  margin: 0;
+  line-height: 1.68;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
 /* Back to Top */
 .back-to-top {
   position: fixed;

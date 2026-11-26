@@ -61,7 +61,7 @@ window.PAIR_MAPS = {
         era: '13th century • Tang Dynasty (618 to 907CE)',
         title: 'Origins of Sago',
         body: `
-          <p>The exact origins of sago consumption are unclear. However, some sources suggest that the earliest recorded evidence of sago consumption dates back to the 13th century in the Philippines, where indigenous islanders used sago as a staple food (<a href="https://paradiseforfood.com/is-sago-chinese/" target="_blank" rel="noopener">Moore, n.d.</a>). Moore suggests that sago travelled to China during the Tang Dynasty (618 to 907CE), through trade routes between Southeast Asia and China.</p>
+          <p>The exact origins of sago consumption are unclear. However, some sources suggest that the earliest recorded evidence of sago consumption dates back to the 13th century in the Philippines, where indigenous islanders used sago as a staple food (). Moore suggests that sago travelled to China during the Tang Dynasty (618 to 907CE), through trade routes between Southeast Asia and China.</p>
         `,
       },
       {
@@ -88,9 +88,9 @@ window.PAIR_MAPS = {
         era: '1511–1512',
         title: 'Metroxylon Sagu & Maluku Islands',
         body: `
-          <p>Sago is a starch that is extracted from the pith of the sago palm, which is native to the Indonesian Archipelago (<a href="https://www.britannica.com/topic/sago" target="_blank" rel="noopener">Britannica, 2026</a>).</p>
-          <p>The starch granule we are most interested in is the starch extracted from the Metroxylon Sagu - a tropical palm tree native to the Maluku Islands of the Indonesian Archipelago (<a href="https://www.nparks.gov.sg/florafaunaweb/flora/4/4/4441" target="_blank" rel="noopener">NParks, 2025., adapted from Jong, 2022</a>). This is the tree that produces the palm we then process into the sago we consume in mango sago.</p>
-          <p>The Maluku Islands are also known as Indonesia's <strong>SPICE ISLANDS!</strong> The Portuguese arrived here in 1512, landing on Ambon, having landed in Malacca in 1511 (<a href="https://benjaminlmoseley.com/2019/11/08/an-ambonese-account-on-the-arrival-of-the-portuguese/" target="_blank" rel="noopener">Mosely, 2019</a>).</p>
+          <p>Sago is a starch that is extracted from the pith of the sago palm, which is native to the Indonesian Archipelago ().</p>
+          <p>The starch granule we are most interested in is the starch extracted from the Metroxylon Sagu - a tropical palm tree native to the Maluku Islands of the Indonesian Archipelago (). This is the tree that produces the palm we then process into the sago we consume in mango sago.</p>
+          <p>The Maluku Islands are also known as Indonesia's <strong>SPICE ISLANDS!</strong> The Portuguese arrived here in 1512, landing on Ambon, having landed in Malacca in 1511 ().</p>
         `,
       },
       {
@@ -110,10 +110,10 @@ window.PAIR_MAPS = {
         ],
         body: `
           <p><strong>The Portuguese:</strong> The Portuguese tried to dominate the spice and silver trade by leveraging Malay Malacca's existing status as a spice emporium and developing Macao into an entrepôt to China. This establishes a historic connection of trade between Southeast Asia and China.</p>
-          <p><strong>Etymology of "sago":</strong> The earliest known use of the word 'sago' is from 1555. It was borrowed from Austronesian (Malay) 'sagu' (<a href="https://www.oed.com/dictionary/sago_n" target="_blank" rel="noopener">Oxford English Dictionary, n.d.</a>), referring to the palm tree. It was then adopted by the Portuguese and the Dutch in the 1570s (<a href="https://www.etymonline.com/word/sago." target="_blank" rel="noopener">Etymoline, n.d.</a>), suggesting that sago was also introduced to Europe around this time.</p>
+          <p><strong>Etymology of "sago":</strong> The earliest known use of the word 'sago' is from 1555. It was borrowed from Austronesian (Malay) 'sagu' (), referring to the palm tree. It was then adopted by the Portuguese and the Dutch in the 1570s (), suggesting that sago was also introduced to Europe around this time.</p>
           <p><strong>A rhythm of connection - sago as the golden thread:</strong> The presence of starch indigenous to Indonesian islands in ancient Chinese diets suggest that there already existed trade relationships between southern China and Southeast Asia. The etymological connection of 'sago' to the Portuguese and Dutch spice trade symbolises the rhythm of trade relations and connection between southern China and Southeast Asia.</p>
           <p>There exists a similar sago gula melaka, a sago-based dessert made with coconut milk and palm sugar. Sago gula melaka originates from Malacca and is a traditional Malay and Peranakan dessert.</p>
-          <p><strong>The Modern Sago:</strong> The appearance of the familiar, clean white pearls of sago can be traced back to the Chinese of Malacca around 1814 (<a href="https://thegastrographer.com/ingredient/sago-palm" target="_blank" rel="noopener">The Gastrographer, n.d.</a>).</p>
+          <p><strong>The Modern Sago:</strong> The appearance of the familiar, clean white pearls of sago can be traced back to the Chinese of Malacca around 1814 ().</p>
         `,
       },
       {
@@ -126,7 +126,7 @@ window.PAIR_MAPS = {
         era: '18th-century',
         title: 'First appearances of sago in desserts',
         body: `
-          <p>The UK version of sago pudding is said to begin appearing in cookbooks from the 18th-century. Recipes called for additions of sugar and lemon, as well as spices like cinnamon and nutmeg (<a href="https://britishfoodhistory.com/2023/08/21/sago-and-tapioca-pudding/" target="_blank" rel="noopener">Ellis, 2023</a>).</p>
+          <p>The UK version of sago pudding is said to begin appearing in cookbooks from the 18th-century. Recipes called for additions of sugar and lemon, as well as spices like cinnamon and nutmeg ().</p>
         `,
       },
       {
@@ -140,8 +140,8 @@ window.PAIR_MAPS = {
         title: 'tong sui （糖水）',
         body: `
           <p>In parallel to the trade relationships happening between Southeast Asia and China through the dynasties, there also exists the spready of popularity of tong sui through China.</p>
-          <p>'Tong sui' translates directly to 'sweet soup', originating from ancient northern China and were consumed by nobility and royalty throughout the Chinese dynasties for health benefits (<a href="https://www.proquest.com/docview/3082706702?parentSessionId=VP3uRspZx16Z8Dzqg%2F1xJHJU7y9yk1u24brgSy3Ew7c%3D&pq-origsite=primo&accountid=28662&sourcetype=Scholarly%20Journals" target="_blank" rel="noopener">Chen and Lin, 2024</a>).</p>
-          <p><strong>Tong sui in Guangzhou:</strong> Tong sui gained popularity in Guangzhou due to the hot and humid climate of the region and the abundant sugarcane supply along the Pearl River Delta (<a href="https://www.proquest.com/docview/3082706702?parentSessionId=VP3uRspZx16Z8Dzqg%2F1xJHJU7y9yk1u24brgSy3Ew7c%3D&pq-origsite=primo&accountid=28662&sourcetype=Scholarly%20Journals" target="_blank" rel="noopener">Yan, 2020</a>). Before 1949, Hong Kong existed within the context of Guangdong, and frequent interactions of people and food cultures between the two places contributed to the introduction of tong sui in Hong Kong.</p>
+          <p>'Tong sui' translates directly to 'sweet soup', originating from ancient northern China and were consumed by nobility and royalty throughout the Chinese dynasties for health benefits ().</p>
+          <p><strong>Tong sui in Guangzhou:</strong> Tong sui gained popularity in Guangzhou due to the hot and humid climate of the region and the abundant sugarcane supply along the Pearl River Delta (). Before 1949, Hong Kong existed within the context of Guangdong, and frequent interactions of people and food cultures between the two places contributed to the introduction of tong sui in Hong Kong.</p>
         `,
       },
       {
@@ -156,18 +156,18 @@ window.PAIR_MAPS = {
         images: [
           {
             src: 'https://app.milanote.com/media/p/images/1Xt3ig16aV8nbi/Mnp/image.png?w=400',
-            caption: 'Sweet potato soup - a staple of Hong Kong tong sui / Image source: <a href="https://tw.news.yahoo.com/%E9%A3%9F%E5%8A%9B-%E6%A5%8A%E6%9E%9D%E7%94%98%E9%9C%B2%E5%8E%9F%E4%BE%86%E6%98%AF%E9%A6%99%E6%B8%AF%E9%A6%96%E5%89%B5-%E7%9B%A4%E9%BB%9E8%E5%A4%A7%E6%B8%AF%E5%BC%8F%E7%B3%96%E6%B0%B4%E7%B6%93%E5%85%B8%E5%91%B3-015658779.html" target="_blank" rel="noopener">Shili, 2020</a>',
+            caption: 'Sweet potato soup - a staple of Hong Kong tong sui / Image source: ',
           },
           {
             src: 'https://app.milanote.com/media/p/images/1Xt3hZ16aV8nbh/57G/image.png?w=400',
-            caption: 'Red bean paste - a staple of Hong Kong-style tong sui / Image source: <a href="https://tw.news.yahoo.com/%E9%A3%9F%E5%8A%9B-%E6%A5%8A%E6%9E%9D%E7%94%98%E9%9C%B2%E5%8E%9F%E4%BE%86%E6%98%AF%E9%A6%99%E6%B8%AF%E9%A6%96%E5%89%B5-%E7%9B%A4%E9%BB%9E8%E5%A4%A7%E6%B8%AF%E5%BC%8F%E7%B3%96%E6%B0%B4%E7%B6%93%E5%85%B8%E5%91%B3-015658779.html" target="_blank" rel="noopener">Shili, 2020</a>',
+            caption: 'Red bean paste - a staple of Hong Kong-style tong sui / Image source: ',
           },
         ],
         body: `
           <p><strong>Postwar Hong Kong:</strong> A distinct Hong Kong identity emerged as large waves of migration from Mainland China into Hong Kong in the 1940s-60s created a new immigrant society. This identity was characterised by rapid economic growth and rising living standards, shaping consumerism in the middle class (Greatrex, 2026)</p>
           <p>Tong sui begins to gain popularity in Hong Kong during this time, and from there emerges distinct Hong Kong flavours of tong sui, in the forms of various pastes and sweet potatoes.</p>
           <p><strong>The mango sago!:</strong> In the 1960s, during the emergence of the Hong Kong middle class and new Hong Kong identity, a small, family-owned dessert shop called <strong>Hui Lau Shan</strong> opened in Yuen Long, Hong Kong selling herbal tea and jelly.</p>
-          <p>In 1992, the shop launched the <strong>mango sago</strong>, which was very well-received by customers and popularised the inclusion of fresh fruit into <em>tong sui</em>. (<a href="http://www.scmp.com/article/1014253/dessert-chain-offers-place-chill-out" target="_blank" rel="noopener">Sun, 2012</a>)</p>
+          <p>In 1992, the shop launched the <strong>mango sago</strong>, which was very well-received by customers and popularised the inclusion of fresh fruit into <em>tong sui</em>. ()</p>
         `,
       },
       {
@@ -263,7 +263,7 @@ window.PAIR_MAPS = {
         title: 'Origin of Char Siew / A History of Hong Kong\'s Siew Mei',
         body: `
           <p>Char siew (roasted pork strips) belongs to a broader category of Cantonese-style roast meats known as siu mei.</p>
-          <p><strong>A History of Hong Kong's Siew Mei:</strong> Siew mei originated from China, with royal recipes dating back to the Zhou dynasty. Skewered meats roasted over an open fire gained popularity and made its way to Guangdong. Migrating chefs from the Pearl River Delta brought one of the first variations of siew mei into Hong Kong in the form of the roast goose, seasoned with five-spice, garlic, dried tangerine peel and shallot oil and eaten with a sour plum sauce (<a href="https://cantoneseguy.com/blogs/news/hong-kong-roast-goose-siu-ngo-yung-kee-wellington-street-sham-tseng-cantonese-history" target="_blank" rel="noopener">Cantonese Guy, 2026</a>). Yung Kee, a street hawker, started selling the roast goose in the 1940s, bringing the dish into the spotlight.</p>
+          <p><strong>A History of Hong Kong's Siew Mei:</strong> Siew mei originated from China, with royal recipes dating back to the Zhou dynasty. Skewered meats roasted over an open fire gained popularity and made its way to Guangdong. Migrating chefs from the Pearl River Delta brought one of the first variations of siew mei into Hong Kong in the form of the roast goose, seasoned with five-spice, garlic, dried tangerine peel and shallot oil and eaten with a sour plum sauce (). Yung Kee, a street hawker, started selling the roast goose in the 1940s, bringing the dish into the spotlight.</p>
         `,
       },
       {
@@ -278,14 +278,14 @@ window.PAIR_MAPS = {
         images: [
           {
             src: 'images/char-siew-woks-of-life.jpg',
-            caption: 'Char siew! <em>Image source: <a href="https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-15.jpg" target="_blank" rel="noopener">The Woks of Life</a>, 2025</em>',
+            caption: 'Char siew! <em>Image source: , 2025</em>',
           },
         ],
         body: `
-          <p>Char siew as we know it today is an evolution from the siew mei of the Zhou dynasty. Specifically, its distinct glaze is traced back to roasting workshops situated in the Guangdong province during the Tang and Song dynasties. <strong>Guangdong's trade relations with Arab and Indian traders brought spices like star anise and five-spice, which were introduced into the marinade</strong> (<a href="https://cantoneseguy.com/blogs/news/char-siu-cantonese-bbq-pork-hong-kong-guangdong-history" target="_blank" rel="noopener">Cantonese Guy, 2026</a>).</p>
+          <p>Char siew as we know it today is an evolution from the siew mei of the Zhou dynasty. Specifically, its distinct glaze is traced back to roasting workshops situated in the Guangdong province during the Tang and Song dynasties. <strong>Guangdong's trade relations with Arab and Indian traders brought spices like star anise and five-spice, which were introduced into the marinade</strong> ().</p>
           <p>Guangdong's trade with South Asia (India), West Asia (Arabia) and Southeast Asia developed it into an entrepôt of China. By tracing the origins of char siew, we also see that this trade is what led to the <strong>emergence</strong> of a distinct Cantonese culture, specifically through the unique flavours of food influenced by its trade relationships with the rest of the world.</p>
           <p><strong>Similarities with Southeast Asia - Srivijaya:</strong> Before Singapore, there was Srivijaya. Tributary trade relations of spices and luxury goods between Srivijaya and Tang dynasty Guangdong helped consolidate power and similarly, develop Srivijaya into a Southeast Asian entrepôt.</p>
-          <p>Arabic traders brought skewered meat to Southeast Asia, starting with Indonesia and eventually Malaya. While the meat was initially speared through metals (the Arabs used their swords), the Southeast Asians adapted to use wooden skewers (satay stick!) instead. The meat was marinated with spices like coriander and cumin, both native to Southwest Asia (<a href="https://www.nlb.gov.sg/main/article-detail?cmsuuid=fb9c1ebd-90ee-4216-8cd8-004f68186e24" target="_blank" rel="noopener">Vasu, 2017</a>).</p>
+          <p>Arabic traders brought skewered meat to Southeast Asia, starting with Indonesia and eventually Malaya. While the meat was initially speared through metals (the Arabs used their swords), the Southeast Asians adapted to use wooden skewers (satay stick!) instead. The meat was marinated with spices like coriander and cumin, both native to Southwest Asia ().</p>
         `,
       },
       {
@@ -316,14 +316,14 @@ window.PAIR_MAPS = {
         images: [
           {
             src: 'https://app.milanote.com/media/p/images/1Xu5pT122hmqd8/mLL/image.png?w=400',
-            caption: '"The best char siew in Hong Kong" according to <a href="https://www.sassyhongkong.com/best-char-siu-in-hong-kong-local-eat-drink/" target="_blank" rel="noopener">this blog</a>',
+            caption: '"The best char siew in Hong Kong" according to ',
           },
         ],
         body: `
-          <p>Char siew became a staple in Hong Kong's chaa chaan tengs in the 1950s. Hong Kong's workforce was dominated by blue-collar workers who preferred hearty meals. This popularised the 'tor dei' char siew, made with pork belly that consisted of plenty of fatty meat. During Hong Kong's period of economic boom, society became wealthier and people became more health conscious (<a href="https://guide.michelin.com/en/article/features/iconic-dish-char-siu-history-recommendation" target="_blank" rel="noopener">Michelin Guide, 2024</a>).</p>
+          <p>Char siew became a staple in Hong Kong's chaa chaan tengs in the 1950s. Hong Kong's workforce was dominated by blue-collar workers who preferred hearty meals. This popularised the 'tor dei' char siew, made with pork belly that consisted of plenty of fatty meat. During Hong Kong's period of economic boom, society became wealthier and people became more health conscious ().</p>
           <p>From here, there emerged a new popularity for 'mui tau' char siew, made from pork collar to be less fatty and with a more distinct mouthfeel in its alternating layers of lean meat and fat.</p>
           <p>According to Cantonese Guy, the 'canonical Guandong-Hong Kong' char siew is marinated with hoisin sauce, light soy, sugar, maltose, fermented red bean curd, Chinese rose wine and honey. The pork shoulder is the prized cut.</p>
-          <p><strong>Singapore:</strong> Char siew arrived in Singapore between 1819 to 1965, when Chinese immigrants came and took on blue-collar jobs. Street hawkers responded to the increased demand for calorie-dense and cheap foods by offering familiar dishes like porridge, cai png and Cantonese roast meats (<em>siu mei</em>) like char siew (<a href="https://culturepaedia.singaporeccc.org.sg/popular-culture/singaporean-chinese-hawker-food-history-and-evolution/" target="_blank" rel="noopener">Kueh, 2026</a>).</p>
+          <p><strong>Singapore:</strong> Char siew arrived in Singapore between 1819 to 1965, when Chinese immigrants came and took on blue-collar jobs. Street hawkers responded to the increased demand for calorie-dense and cheap foods by offering familiar dishes like porridge, cai png and Cantonese roast meats (<em>siu mei</em>) like char siew ().</p>
         `,
       },
       {
@@ -336,7 +336,7 @@ window.PAIR_MAPS = {
         era: '1819 to 1965 • Present',
         title: 'Singapore Char Siew & Why SG vs HK Differ',
         body: `
-          <p><a href="https://www.reddit.com/r/singapore/comments/6kz49u/charsiew/" target="_blank" rel="noopener">This Reddit thread</a> discusses how and why <em>char siew</em> in Singapore differs so much from the kind found in <em>siew mei</em> stores in Hong Kong.</p>
+          <p> discusses how and why <em>char siew</em> in Singapore differs so much from the kind found in <em>siew mei</em> stores in Hong Kong.</p>
           <div class="callout-note">
             <strong>lilfoot0 (10y ago):</strong> "You are not eating the correct Charsiew. There are some hawker stores that sell decent Charsiew just like Hk type. The only thing I complain about is that they cut it so thinly but in Hk they have it pretty thick slice. The Singapore type of reddish Charsiew is not that bad lah but the Hk ones are definitely fatter and more tasty."<br><br>
             <strong>lumda OP (10y ago):</strong> "Hmmm that's my point. Hk Charsiew is noticeably more fatty and indeed more 'tasty'. Perhaps something to do with the pork they use? I do know that the chicken rice Michelin star restaurant in Chinatown serves a pretty decent Charsiew though"<br><br>
@@ -352,11 +352,11 @@ window.PAIR_MAPS = {
               <figcaption>Char siew and siew yuk with rice at the Hennessey Hong Kong Food Hall in Leisure Park Kallang. It's a different colour and texture altogether.</figcaption>
             </figure>
           </div>
-          <p><strong>A Few Potential Reasons:</strong> After independence, Hainanese immigrants who had previously worked as chefs for British and Peranakan households entered the local food and beverage industry. They dominated Chinese kitchens and prepared food familiar across the Chinese dialects to attract a wider customer base, diluting the dialect-specific flavours into a distinctly Singaporean Chinese food culture (Kueh, 2026). Since then, Singapore's blend of people and cultures has also introduced fusions to traditional foods. For example, <em>siew mei</em> at Char on Race Course Road is made by Vietnamese-born British Chef who incorporated his love for Hong Kong's roast meats with Western herbs and spices (<a href="https://eats.oddle.me/feeds/humans-of-fnb-char-restaurant" target="_blank" rel="noopener">Loh, 2021</a>; Tay, 2016). There may also be less willingness of the younger generation to learn these traditional cooking techniques, and traditional practices become lost in time.</p>
-          <p><strong>Availabilities of Ingredients:</strong> Meanwhile, <a href="https://ieatishootipost.sg/char-one-of-a-kind-char-siew/" target="_blank" rel="noopener">Tay (2014)</a> suggests that there is no one true recipe for Singapore char siew, which can be made with ingredients including HP sauce, five spice powder and fish sauce, or even completely omit the pork for chicken.</p>
-          <p><strong>Evolution of Singapore's Hawker Culture:</strong> Singapore's hawker culture is another emergence from its identity as an entrepôt of Southeast Asia during the pre-colonial and colonial eras. What started as street food evolved into regulated hawker centres. As stalls moved indoors, cooking methods adapted to the facilities that were available. Master Cho roasts his char siew with a gas cooker before moving it to charcoal because the hawker centre does not allow full charcoal roasting (<a href="https://cnalifestyle.channelnewsasia.com/dining/roast-master-chinatown-peoples-park-complex-590706" target="_blank" rel="noopener">Lin, 2026</a>).</p>
-          <p><strong>Health Consciousness, Religion and Other Social Influences:</strong> Singapore's Health Promotion Board's recommendations of a healthier diet include using less oil, choosing cooking methods like boiling or baking, opting for less fat and salt and less gravy (<a href="https://www.healthhub.sg/well-being-and-lifestyle/food-diet-and-nutrition/getting-the-fats-right#home" target="_blank" rel="noopener">Healthhub, 2025</a>). Children are taught the food pyramid and the more recent 'My Healthy Plate' in schools, while adults grow more aware of the importance of leading a healthier lifestyle. The increased health consciousness likely influences more people to choose leaner cuts of roast meat, less char and less sodium, not dissimilar to what happened in Hong Kong that led to the 'mui tau' variation of char siew. (It's not just char siew too - every Chinese New Year my favourite traditional snacks come under the radar for being too high in calorie/fat/sodium/sugar)</p>
-          <p>Singapore's multireligious society also sees adaptations of food to make them more accessible to a wider consumer base. Where roast poultry in Hong Kong are usually sold at stalls that also sell pork, many of Singapore's roasted chicken rice stalls are Halal. Some Buddhists also eat vegetarian food, leading to varieties of mock meat. People may also opt for vegetarian food for environmental concerns (<a href="https://culturepaedia.singaporeccc.org.sg/popular-culture/from-temples-to-shopping-malls-a-century-of-chinese-vegetarian-food-in-singapore/" target="_blank" rel="noopener">The Nutgraf Editorial Team, 2026</a>).</p>
+          <p><strong>A Few Potential Reasons:</strong> After independence, Hainanese immigrants who had previously worked as chefs for British and Peranakan households entered the local food and beverage industry. They dominated Chinese kitchens and prepared food familiar across the Chinese dialects to attract a wider customer base, diluting the dialect-specific flavours into a distinctly Singaporean Chinese food culture (Kueh, 2026). Since then, Singapore's blend of people and cultures has also introduced fusions to traditional foods. For example, <em>siew mei</em> at Char on Race Course Road is made by Vietnamese-born British Chef who incorporated his love for Hong Kong's roast meats with Western herbs and spices (; Tay, 2016). There may also be less willingness of the younger generation to learn these traditional cooking techniques, and traditional practices become lost in time.</p>
+          <p><strong>Availabilities of Ingredients:</strong> Meanwhile,  suggests that there is no one true recipe for Singapore char siew, which can be made with ingredients including HP sauce, five spice powder and fish sauce, or even completely omit the pork for chicken.</p>
+          <p><strong>Evolution of Singapore's Hawker Culture:</strong> Singapore's hawker culture is another emergence from its identity as an entrepôt of Southeast Asia during the pre-colonial and colonial eras. What started as street food evolved into regulated hawker centres. As stalls moved indoors, cooking methods adapted to the facilities that were available. Master Cho roasts his char siew with a gas cooker before moving it to charcoal because the hawker centre does not allow full charcoal roasting ().</p>
+          <p><strong>Health Consciousness, Religion and Other Social Influences:</strong> Singapore's Health Promotion Board's recommendations of a healthier diet include using less oil, choosing cooking methods like boiling or baking, opting for less fat and salt and less gravy (). Children are taught the food pyramid and the more recent 'My Healthy Plate' in schools, while adults grow more aware of the importance of leading a healthier lifestyle. The increased health consciousness likely influences more people to choose leaner cuts of roast meat, less char and less sodium, not dissimilar to what happened in Hong Kong that led to the 'mui tau' variation of char siew. (It's not just char siew too - every Chinese New Year my favourite traditional snacks come under the radar for being too high in calorie/fat/sodium/sugar)</p>
+          <p>Singapore's multireligious society also sees adaptations of food to make them more accessible to a wider consumer base. Where roast poultry in Hong Kong are usually sold at stalls that also sell pork, many of Singapore's roasted chicken rice stalls are Halal. Some Buddhists also eat vegetarian food, leading to varieties of mock meat. People may also opt for vegetarian food for environmental concerns ().</p>
         `,
       },
       {
@@ -371,7 +371,7 @@ window.PAIR_MAPS = {
         body: `
           <p>Modern, Singaporean variations of satay include the use of shrimp paste and pineapple. Traditionally, satay is roasted over a charcoal fire and brushed with oil as it cooks (Vasu, 2017). However, as street hawkers moved into indoor hawker centres, and because of the extreme heat and smoke of the charcoal grill, it is now increasingly common to see satay being roasted over an electric grill.</p>
           <p>Similar to the multitude of adaptations and variations of char siew, there exists Chinese, Hainanese and Malay-style satays. While the meat remains skewered on a wooden stick and dipped in peanut sauce, the ingredients that go in the marinade differ.</p>
-          <p>Pang's Satay in Chinatown uses pineapples in its peanut sauce, while Haron Satay 55 at East Coast Park uses lemongrass in its marinade, and Original Alhambra Satay at Geylang Serai adds dried shrimp and chilli (<a href="https://wheretoeat.com.sg/best-satay-in-singapore/" target="_blank" rel="noopener">wheretoeat, 2026</a>).</p>
+          <p>Pang's Satay in Chinatown uses pineapples in its peanut sauce, while Haron Satay 55 at East Coast Park uses lemongrass in its marinade, and Original Alhambra Satay at Geylang Serai adds dried shrimp and chilli ().</p>
           <div class="callout-note">
             I even bought frozen satay meat and threw them in my air fryer, sans stick - definitely not traditional. I also haven't seen the (definitely illegal) street vendors selling charcoal-fire roasted satay at my market in a few years, and kind of miss being able to smell it from several blocks away.
           </div>
@@ -470,7 +470,7 @@ window.PAIR_MAPS = {
         images: [
           {
             src: 'https://app.milanote.com/media/p/images/1Xu8WH122hmqdm/EbS/image.png?w=400',
-            caption: 'Page from <a href="https://books.google.com.sg/books?id=XIlZuk8IvWcC&dq=%22macaroni+soup%22&pg=PA5&redir_esc=y#v=onepage&q=%22macaroni%20soup%22&f=false" target="_blank" rel="noopener">Mrs Beeton\'s Household Management</a> (Beeton, 1861, pp. 70)',
+            caption: 'Page from  (Beeton, 1861, pp. 70)',
           },
         ],
         body: `
@@ -490,13 +490,13 @@ window.PAIR_MAPS = {
         images: [
           {
             src: 'https://app.milanote.com/media/p/images/1Xu974122hmqdn/D7A/image.png?w=400',
-            caption: 'Macaroni soup / Image source: <a href="https://sl.bing.net/d3T7ZMMe4U8" target="_blank" rel="noopener">https://sl.bing.net/d3T7ZMMe4U8</a>',
+            caption: 'Macaroni soup / Image source: ',
           },
         ],
         body: `
           <p><strong>Hong Kong's Macaroni Soup:</strong> Macaroni soup is served in Hong Kong's cha chaan tengs as a breakfast and comfort food. It is composed of elbow macaroni in a thin, savoury broth topped with ham.</p>
           <p><strong>Cha Chaan Tengs:</strong> These classic Hong Kong diners emerged in postwar Hong Kong during the 1950s and 60s following the emergence of a Hong Kong middle class. The city grew in prosperity as the British laid the foundations for 'market-based governance and immigration-based growth' (Cheang, 2022), leading to a largely immigrant Hong Kong society. Rapid urbanisation followed, alongside the development of infrastructure like public housing to house its growing population. Cultural and class differences of workers in Hong Kong and Guangdong contributed to the emergence of a new, distinct and consumerist Hong Konger identity.</p>
-          <p>Influenced by British rule, this working-class sought for colonial Western breakfasts at working-class price and speed. Predecessors to the cha chaan teng imported Italian elbow macaroni and cooked it in broth, satisfying the demand for cheap, fast Western food easy enough to fit into existing diner menus (<a href="https://cantoneseguy.com/blogs/news/hong-kong-macaroni-soup-fo-teoi-tung-fan-cha-chaan-teng-breakfast-history" target="_blank" rel="noopener">Cantonese Guy, 2026</a>).</p>
+          <p>Influenced by British rule, this working-class sought for colonial Western breakfasts at working-class price and speed. Predecessors to the cha chaan teng imported Italian elbow macaroni and cooked it in broth, satisfying the demand for cheap, fast Western food easy enough to fit into existing diner menus ().</p>
           <p>Hong Kong's macaroni soup symbolises the emergence of a capitalistic, Westernised Hong Konger identity under British governance.</p>
         `,
       },
@@ -510,7 +510,7 @@ window.PAIR_MAPS = {
         era: '1821 • 1870',
         title: 'The Hainanese',
         body: `
-          <p>The Hainanese first arrived in Singapore in 1821 as traders. However, it was only in 1870 that some Hainanese emigrated to Singapore, by which time other Chinese dialect groups had already taken the more lucrative jobs (<a href="https://www.nlb.gov.sg/main/article-detail?cmsuuid=b6af752e-68d5-4199-a899-2391a239a5e5" target="_blank" rel="noopener">Conceicao, 2023</a>). Less skilled, with little business contacts and unable to communicate with other dialect groups, the early Hainanese immigrants entered the service sector as hotel cooks and domestic servants in European and Peranakan households.</p>
+          <p>The Hainanese first arrived in Singapore in 1821 as traders. However, it was only in 1870 that some Hainanese emigrated to Singapore, by which time other Chinese dialect groups had already taken the more lucrative jobs (). Less skilled, with little business contacts and unable to communicate with other dialect groups, the early Hainanese immigrants entered the service sector as hotel cooks and domestic servants in European and Peranakan households.</p>
         `,
       },
       {
@@ -534,17 +534,17 @@ window.PAIR_MAPS = {
         ],
         body: `
           <p>It's difficult to find a food court or coffee shop in Singapore without its own Western food stall, usually selling some combination of Western-Asian fusions of chicken chop, pasta and baked rice. Its distinctive combination of ingredients and flavour profile makes it unique from the usual Western fast-food.</p>
-          <p>In the late 1920s to 30s, some Hainanese moved to set up their own hotels, bars and restaurants (<a href="https://www.nlb.gov.sg/main/article-detail?cmsuuid=b6af752e-68d5-4199-a899-2391a239a5e5" target="_blank" rel="noopener">Conceicao, 2023</a>).</p>
-          <p><strong>The Food:</strong> Following the decline of British and Peranakan influence post-war, the Hainanese set up the first kopitiams (coffeeshops), contributing to the coffeeshop culture we have today (<a href="https://www.nlb.gov.sg/main/article-detail?cmsuuid=b6af752e-68d5-4199-a899-2391a239a5e5" target="_blank" rel="noopener">Conceicao, 2023</a>). Over time, they adapted the Western dishes they had become familiar with while serving the Westerners to fit local palates and reach a wider consumer base.</p>
+          <p>In the late 1920s to 30s, some Hainanese moved to set up their own hotels, bars and restaurants ().</p>
+          <p><strong>The Food:</strong> Following the decline of British and Peranakan influence post-war, the Hainanese set up the first kopitiams (coffeeshops), contributing to the coffeeshop culture we have today (). Over time, they adapted the Western dishes they had become familiar with while serving the Westerners to fit local palates and reach a wider consumer base.</p>
           <p><strong>Comparisons with British Food:</strong> Classic Hainanese-Western dishes included deep-fried or crumbed pork chop, chicken cutlet, grilled or fried fish and sides like chips, coleslaw and rice.</p>
-          <p><strong>Chicken Cutlet:</strong> The chicken cutlet is closest to 'parmo', a deep-fried and breaded chicken cutlet that originated from Middlesbrough, England in the 1950s (<a href="https://www.tasteatlas.com/best-rated-chicken-dishes-in-united-kingdom" target="_blank" rel="noopener">Taste Atlas, 2026</a>), but topped with a black pepper or brown gravy instead of cheese.</p>
+          <p><strong>Chicken Cutlet:</strong> The chicken cutlet is closest to 'parmo', a deep-fried and breaded chicken cutlet that originated from Middlesbrough, England in the 1950s (), but topped with a black pepper or brown gravy instead of cheese.</p>
           <p><strong>Fish and Chips:</strong> Fried battered fish mostly resemble British fish and chips, although it's usually paired with french fries, not chips, and usually not accompanied by mushed peas and vinegar.</p>
           <p><strong>Side Dishes:</strong> Most stalls offer coleslaw not too dissimilar from British coleslaw - cabbage and carrots mixed in mayonnaise. I've also seen baked beans and toast - kind of resembling a Full English Breakfast? Mashed potatoes in onion gravy - Bangers and Mash, sans bangers? Rice - usually buttered or spiced fragrant rice.</p>
           <div class="callout-note">
             Macaroni soup is also served to children in Singapore (source: my favourite school lunch in kindergarten, and still my go-to at Foodfare on a rainy day)
           </div>
           <div class="callout-synthesis">
-            <strong>Conclusion:</strong> Hong Kong's macaroni soup starkly contrasts against Singapore's unique Hainanese-style Western food. Macaroni soup emerged as a Hong Kong staple as the very fabric of its identity was being shaped by British governance to become capitalistic and Westernised, and is symbolic of the Anglo-Chinese capitalism that contributed to its economic boom (<a href="https://www.tandfonline.com/doi/full/10.1080/00220388.2023.2182685" target="_blank" rel="noopener">Cheang, 2022</a>). Meanwhile, it was the locals' taste preferences and immigrant innovation that led to the incorporation of Asian flavours into Western food, leading to the emergence of a whole new cuisine.<br><br>
+            <strong>Conclusion:</strong> Hong Kong's macaroni soup starkly contrasts against Singapore's unique Hainanese-style Western food. Macaroni soup emerged as a Hong Kong staple as the very fabric of its identity was being shaped by British governance to become capitalistic and Westernised, and is symbolic of the Anglo-Chinese capitalism that contributed to its economic boom (). Meanwhile, it was the locals' taste preferences and immigrant innovation that led to the incorporation of Asian flavours into Western food, leading to the emergence of a whole new cuisine.<br><br>
             <strong>Connection:</strong> The origin stories of macaroni soup and Hainanese-Western cuisine symbolise Singapore and Hong Kong's shared history of life under British rule and the long-lasting socio-economic impacts of British governance on the identity and prosperity of these two places.<br><br>
             <strong>Multiplicity:</strong> The existence of these Western-Asian fusion dishes also tells us that despite the British attempts at establishing racial hierarchies, the British empire was run on the backs of the working-class locals and immigrants who came before. Without them, there is no "Hong Konger" or "Singaporean" identity.
           </div>
@@ -608,10 +608,10 @@ window.PAIR_MAPS = {
         era: 'Cantonese Origin',
         title: 'Origin of Lo Mai Chi (糯米糍) & Other East Asian Mochis',
         body: `
-          <p>Lo mai chi is one of many variations of mochi found across Asia, but this distinct coconut-dusted format can be traced back to Foshan in Guangdong Province (<a href="https://thewoksoflife.com/peanut-mochi-coconut/" target="_blank" rel="noopener">Judy, 2020</a>). Lo mai chi is made with glutinous rice flour, which gives it its chewy texture, and filled with peanut or red bean pasted. It is then given a generous dusting of desiccated coconut, which is what distinguishes it from other mochis. Lo mai chi is a recognizable Cantonese dim-sum dish that can be found in restaurants, bakeries and cha chaan tengs across Guangdong and Hong Kong (<a href="https://thewoksoflife.com/peanut-mochi-coconut/" target="_blank" rel="noopener">Judy, 2020</a>). This association with cha chaan tengs in Hong Kong suggests that it likely gained popularity amongst Hong Kongers postwar, when its population consisted of mostly immigrants and it underwent an economic and social transformaion.</p>
+          <p>Lo mai chi is one of many variations of mochi found across Asia, but this distinct coconut-dusted format can be traced back to Foshan in Guangdong Province (). Lo mai chi is made with glutinous rice flour, which gives it its chewy texture, and filled with peanut or red bean pasted. It is then given a generous dusting of desiccated coconut, which is what distinguishes it from other mochis. Lo mai chi is a recognizable Cantonese dim-sum dish that can be found in restaurants, bakeries and cha chaan tengs across Guangdong and Hong Kong (). This association with cha chaan tengs in Hong Kong suggests that it likely gained popularity amongst Hong Kongers postwar, when its population consisted of mostly immigrants and it underwent an economic and social transformaion.</p>
           <p>In Hong Kong, lo mai chi has adapted to modern taste preferences by including fillings like green tea and fruit flavours, although the traditional red bean and peanut paste fillings remain popular.</p>
           <p><strong>Other East Asian Mochis:</strong> Japanese mochi similarly uses glutinous rice to achieve its chewy texture. However, while lo mai chi uses glutinous rice flour to form its dough, Japanese mochi uses steamed short-grain glutinous rice that is pounded into a paste and molded into small, rounded shapes. Additionally, Japanese mochi is dusted with rice flour or corn starch instead of coconut, and is usually served plain, although modern variations add sweet fillings like mango or matcha.</p>
-          <p>Muah chee is another similar variation of mochi that is also made with glutinous rice flour. Oil and corn starch are added into the batter, which is then steamed and stirred to create a distinct springy texture (<a href="https://www.nyonyacooking.com/recipes/muah-chee~SyXSdPiPzcWX" target="_blank" rel="noopener">Nyonya Cooking, n.d.</a>). Additionally, it differentiates itself from mochi as it uses a long-grain glutinous rice flour instead of the Japanese short-grain rice. Its preparation method results in a firmer texture than mochi (<a href="https://www.nyonyacooking.com/recipes/muah-chee~SyXSdPiPzcWX" target="_blank" rel="noopener">Nyonya Cooking, n.d.</a>). Muah chee is then coated in a sugary peanut or sesame dusting.</p>
+          <p>Muah chee is another similar variation of mochi that is also made with glutinous rice flour. Oil and corn starch are added into the batter, which is then steamed and stirred to create a distinct springy texture (). Additionally, it differentiates itself from mochi as it uses a long-grain glutinous rice flour instead of the Japanese short-grain rice. Its preparation method results in a firmer texture than mochi (). Muah chee is then coated in a sugary peanut or sesame dusting.</p>
           <p>The coconut dusting is the most apparent difference between lo mai chi and these other forms of East Asian mochis.</p>
         `,
       },
@@ -625,9 +625,9 @@ window.PAIR_MAPS = {
         era: '13th–14th Century',
         title: 'Origin of Onde Onde',
         body: `
-          <p>Onde-onde originated as klepon or umba-umba from Indonesia. Its origins can be traced back to the Bugis-Makassar community, (<a href="https://www.detik.com/sulsel/kuliner/d-6073160/filosofi-onde-onde-kue-wajib-ritual-syukuran-bugis-makassar-sejak-abad-13-14" target="_blank" rel="noopener">Nugraha, 2022</a>), an ethnic group native to South Sulawesi with strong historic ties to the maritime trade. Klepon is a mandatory cake in their community thanksgiving ritual events and celebrations. Its round shape symbolises unity, and its sweet fillings represent hope, strength and happiness for its community (<a href="https://www.detik.com/sulsel/kuliner/d-6073160/filosofi-onde-onde-kue-wajib-ritual-syukuran-bugis-makassar-sejak-abad-13-14" target="_blank" rel="noopener">Nugraha, 2022</a>). In Malaysia, it is also known as buah melaka.</p>
+          <p>Onde-onde originated as klepon or umba-umba from Indonesia. Its origins can be traced back to the Bugis-Makassar community, (), an ethnic group native to South Sulawesi with strong historic ties to the maritime trade. Klepon is a mandatory cake in their community thanksgiving ritual events and celebrations. Its round shape symbolises unity, and its sweet fillings represent hope, strength and happiness for its community (). In Malaysia, it is also known as buah melaka.</p>
           <p>Onde-onde is traditionally made with a dough of glutinous rice flour and sweet potatoes, filled with palm sugar and coated in grated coconut. The dough is usually mixed with pandan to give it its distinct green appearance, although it can also be orange from the sweet potatoes.</p>
-          <p>Melaka Fruit Cake (Kue Malako Kua) is an adaptation of onde-onde that originates from Riau. It is either green or orange, and is thickened with coconut milk and salt, giving it a slightly different taste from onde-onde (<a href="https://www.melayupedia.com/berita/1694/manisnya-kue-malako-dengan-isian-gula-merah-patut-dicoba" target="_blank" rel="noopener">Inge, 2022</a>).</p>
+          <p>Melaka Fruit Cake (Kue Malako Kua) is an adaptation of onde-onde that originates from Riau. It is either green or orange, and is thickened with coconut milk and salt, giving it a slightly different taste from onde-onde ().</p>
         `,
       },
       {
@@ -641,10 +641,10 @@ window.PAIR_MAPS = {
         title: 'Glutinous Rice Flour & Coconut',
         body: `
           <p><strong>The Foods that Bind Us:</strong> The presence of glutinous rice flour and shredded coconut in the onde-onde bears striking resemblance to the lo mai chi, suggesting early interactions and trade between Southeast Asia and East Asia.</p>
-          <p><strong>Glutinous Rice Flour:</strong> A molecular analysis of glutinous rice by <a href="https://pmc.ncbi.nlm.nih.gov/articles/instance/1462305/pdf/12399401.pdf" target="_blank" rel="noopener">Olsen and Purugaanan (2002)</a> found that it was likely the result of a single-origin mutation from Southeast Asia. While there are limited historical records that truly explain how glutinous rice came to be so culturally important in East Asia, Olsen and Purugaanan suggest that Chinese folklore dating more than 2000 years ago already indicate the existence of glutinous rice. In a similar fashion to sago, this suggests that the glutinous rice used in lo mi ci was likely introduced to China from Southeast Asia through relationships of trade predating the arrival of the British, Portuguese, and even Srivijaya.</p>
+          <p><strong>Glutinous Rice Flour:</strong> A molecular analysis of glutinous rice by  found that it was likely the result of a single-origin mutation from Southeast Asia. While there are limited historical records that truly explain how glutinous rice came to be so culturally important in East Asia, Olsen and Purugaanan suggest that Chinese folklore dating more than 2000 years ago already indicate the existence of glutinous rice. In a similar fashion to sago, this suggests that the glutinous rice used in lo mi ci was likely introduced to China from Southeast Asia through relationships of trade predating the arrival of the British, Portuguese, and even Srivijaya.</p>
           <p><strong>Coconut:</strong> The coconut palm is native to Malesia, which comprises of Southeast Asia, Indonesia, Australia, New Guinea and the Pacific Islands. The humble coconut bears much cultural, religious and agricultural significance, used in food, medicine and religious practices across the region.</p>
-          <p><strong>Etymology:</strong> The Sanskrit term for coconut is narikela, which <a href="https://www.researchgate.net/publication/290976239_Coconut_-_History_uses_and_folklore" target="_blank" rel="noopener">SC. Ahuja, S. Ahuja and U. Ahuja (2014)</a> suggest is derived from the South Asian words niyor for oil and kolai for nut. Some argue this is evidence of the coconut's origins in the Malay Archipelago. When the Portuguese and Spanish arrived in Southeast Asia, they referred to the coconut palm as coco because the three holes at its base resembled a grinning face. Combined with nut—dating back to the Latin for nucleus (<a href="https://www.etymonline.com/word/coco" target="_blank" rel="noopener">Etymonline, n.d.</a>), this gave rise to its modern-day name in the 1610s.</p>
-          <p>However, <a href="https://www.researchgate.net/publication/290976239_Coconut_-_History_uses_and_folklore" target="_blank" rel="noopener">SC. Ahuja, S. Ahuja and U. Ahuja</a> note that the coconut was already being traded across Asia long before the 1610s. For example, the travelogue of a Chinese pilgrim who visited India in 640 AD mentions imports of coconut, while another text from 1030 AD states that coconut "makes excellent honey, and the merchants of India, Yemen and China buy it and take it to their own countries where they manufacture sweetmeats from it" (Gibbs, 1929; Randhawa, 1982, as cited in Ahuja et al., 2014).</p>
+          <p><strong>Etymology:</strong> The Sanskrit term for coconut is narikela, which  suggest is derived from the South Asian words niyor for oil and kolai for nut. Some argue this is evidence of the coconut's origins in the Malay Archipelago. When the Portuguese and Spanish arrived in Southeast Asia, they referred to the coconut palm as coco because the three holes at its base resembled a grinning face. Combined with nut—dating back to the Latin for nucleus (), this gave rise to its modern-day name in the 1610s.</p>
+          <p>However,  note that the coconut was already being traded across Asia long before the 1610s. For example, the travelogue of a Chinese pilgrim who visited India in 640 AD mentions imports of coconut, while another text from 1030 AD states that coconut "makes excellent honey, and the merchants of India, Yemen and China buy it and take it to their own countries where they manufacture sweetmeats from it" (Gibbs, 1929; Randhawa, 1982, as cited in Ahuja et al., 2014).</p>
         `,
       },
       {
@@ -657,7 +657,7 @@ window.PAIR_MAPS = {
         era: 'Contemporary Emergence',
         title: 'Singaporean Emergence',
         body: `
-          <p>While lo mai chi in its traditional form remains popular, onde onde in Singapore has undergone significant evolutions. In recent years, there has emerged a trend of deconstructing onde onde into cakes, ice cream, kaya toast and even curry (<a href="https://eatbook.sg/ondeh-ondeh-desserts/" target="_blank" rel="noopener">eatbook.sg, 2019</a>). These evolutions usually retain its distinct taste of coconut and gula melaka while omitting the texture of the glutinous rice.</p>
+          <p>While lo mai chi in its traditional form remains popular, onde onde in Singapore has undergone significant evolutions. In recent years, there has emerged a trend of deconstructing onde onde into cakes, ice cream, kaya toast and even curry (). These evolutions usually retain its distinct taste of coconut and gula melaka while omitting the texture of the glutinous rice.</p>
           <p>Its variations have made onde onde easily accessible and enjoyed by the masses, resulting in onde onde being an icon of the multicultural Singaporean identity.</p>
           <div class="callout-note">
             Fun fact: I had 3/4 of a whole onde-onde cake at my friend's Hari Raya celebration, and I think that's enough onde onde for a lifetime.
@@ -744,7 +744,7 @@ window.PAIR_MAPS = {
             <li>The tea was brewed in a specially designed Britannia teapot made to fit in the limited space of small street stalls</li>
           </ul>
           <p>These characteristics make Hong Kong-style milk tea virtually undetachable from its past as a British colony.</p>
-          <p><strong>The Hong Kong Spirit</strong> (<a href="https://www-tandfonline-com.libproxy.smu.edu.sg/doi/full/10.1080/1683478X.2020.1773616#d1e424" target="_blank" rel="noopener">Mak, 2020</a>)</p>
+          <p><strong>The Hong Kong Spirit</strong> ()</p>
           <p>The "Hong Kong spirit" was founded on the British colonial government's moral standards of "obedience, tolerance, cooperation and harmony". This notion was strengthened with the immigrants' experiences of hardship as the British colonisers denied the immigrants basic citizenship rights and kept the people living in squalor. This inspired a belief that it is their resilience in the face of economic challenges that led to Hong Kong's economic development in the 70s.</p>
           <p>The Hong Kong-style milk tea, served in cha chaan tengs symbolic of the spirit of those who lived through this period of hardship, has thus become synonymous with the Hong Kong spirit.</p>
           <p>In this sense, the Hong Kong-style milk tea is an example of how the British rule led to Hong Kong being a place of <strong>emergence</strong> - of food culture, of a people, and a common identity</p>
@@ -760,7 +760,7 @@ window.PAIR_MAPS = {
         era: '1935 • 1964–1979',
         title: 'Yakult',
         body: `
-          <p>Yakult was invented in Japan in 1935 by Dr. Shirota. He was concerned after seeing children suffering from malnutrition because of poor social-economic conditions (<a href="https://yakult.com.sg/history/" target="_blank" rel="noopener">Yakult, n.d.</a>). He devoted his time to researching <em>lactobacilli</em>, a strain of bacteria that promotes good intestinal health. He incorporated the bacteria strain into a milk cultured drink, creating Yakult.</p>
+          <p>Yakult was invented in Japan in 1935 by Dr. Shirota. He was concerned after seeing children suffering from malnutrition because of poor social-economic conditions (). He devoted his time to researching <em>lactobacilli</em>, a strain of bacteria that promotes good intestinal health. He incorporated the bacteria strain into a milk cultured drink, creating Yakult.</p>
           <p>Yakult began is operations in Taiwan in 1964, Hong Kong in 1969, and Singapore in 1979.</p>
         `,
       },
@@ -774,8 +774,8 @@ window.PAIR_MAPS = {
         era: '1940s • 1980s • 2007',
         title: 'Origin of Yakult Green Tea & Taiwanese Hand Shaken Tea',
         body: `
-          <p>Yakult Green Tea is a blend of the Japanese probiotic drink Yakult, and Taiwanese tea. Its popularisation is credited to a Taiwanese bubble tea chain Ching Shin Fu Chuan, who started selling the drink in 2007 (Google Gemini, 2026; <a href="https://news.tvbs.com.tw/life/576825" target="_blank" rel="noopener">Ho, 2015</a>).</p>
-          <p><strong>Taiwanese Hand Shaken Tea:</strong> The predecessor of the world-famous bubble tea, invented in the 1980s, is the Taiwanese hand-shaken foam tea. This can be traced back to the 1940s when a mixologist who worked at a Japanese izakaya opened a tea shop selling tea made with cocktail shakers (<a href="https://edition.cnn.com/travel/article/taiwan-bubble-tea-origins" target="_blank" rel="noopener">Wong, 2020</a>). This resulted in a rich tea with a foamy surface, forming the basis for bubble tea.</p>
+          <p>Yakult Green Tea is a blend of the Japanese probiotic drink Yakult, and Taiwanese tea. Its popularisation is credited to a Taiwanese bubble tea chain Ching Shin Fu Chuan, who started selling the drink in 2007 (Google Gemini, 2026; ).</p>
+          <p><strong>Taiwanese Hand Shaken Tea:</strong> The predecessor of the world-famous bubble tea, invented in the 1980s, is the Taiwanese hand-shaken foam tea. This can be traced back to the 1940s when a mixologist who worked at a Japanese izakaya opened a tea shop selling tea made with cocktail shakers (). This resulted in a rich tea with a foamy surface, forming the basis for bubble tea.</p>
         `,
       },
       {
