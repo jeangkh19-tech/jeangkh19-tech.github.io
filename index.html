@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hong Kong and Singapore as Places of Emergence: A Food Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sticky Top Navigation -->
+  <header class="site-nav">
+    <div class="nav-inner">
+      <div class="nav-left">
+        <button class="outline-toggle" id="outlineToggle" aria-expanded="false" aria-controls="outlineDrawer" aria-label="Toggle section outline">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <line x1="9" y1="3" x2="9" y2="21" />
+          </svg>
+        </button>
+        <a class="nav-brand" href="#overview">Places of Emergence</a>
+      </div>
+      <nav class="nav-links" id="navLinks" aria-label="Primary Navigation">
+        <a class="nav-link active" href="#overview">Overview</a>
+        <a class="nav-link" href="#pair-1">1. Mango Sago</a>
+        <a class="nav-link" href="#pair-2">2. Char Siew / Satay</a>
+        <a class="nav-link" href="#pair-3">3. Macaroni / Western</a>
+        <a class="nav-link" href="#pair-4">4. Lo Mai Chi / Onde-Onde</a>
+        <a class="nav-link" href="#pair-5">5. Milk Tea / Yakult Green Tea</a>
+        <a class="nav-link" href="#references">References</a>
+      </nav>
+      <a class="nav-home-btn" href="#overview" aria-label="Go to Home Overview">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+        <span>Home</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Left Outline Sidebar Drawer -->
+  <div class="outline-backdrop" id="outlineBackdrop"></div>
+  <aside class="outline-drawer" id="outlineDrawer" aria-label="Section Outline">
+    <div class="outline-header">
+      <span class="outline-heading">Section Outline</span>
+      <button type="button" class="outline-close" id="outlineClose" aria-label="Close outline">&times;</button>
+    </div>
+    <nav class="outline-list">
+      <a class="outline-link active" href="#overview">
+        <span class="outline-num">00</span>
+        <span>Overview</span>
+      </a>
+      <a class="outline-link" href="#pair-1">
+        <span class="outline-num">01</span>
+        <span>Mango Sago / Mango Pomelo Sago</span>
+      </a>
+      <a class="outline-link" href="#pair-2">
+        <span class="outline-num">02</span>
+        <span>Char Siew / Satay</span>
+      </a>
+      <a class="outline-link" href="#pair-3">
+        <span class="outline-num">03</span>
+        <span>HK Macaroni Soup / Hainanese Western</span>
+      </a>
+      <a class="outline-link" href="#pair-4">
+        <span class="outline-num">04</span>
+        <span>Lo Mai Chi / Onde-Onde</span>
+      </a>
+      <a class="outline-link" href="#pair-5">
+        <span class="outline-num">05</span>
+        <span>HK Milk Tea / Yakult Green Tea</span>
+      </a>
+      <div class="outline-divider"></div>
+      <a class="outline-link" href="#references">
+        <span class="outline-num">Ref</span>
+        <span>References &amp; Sources</span>
+      </a>
+    </nav>
+  </aside>
+
+  <!-- Hero / Overview -->
+  <section class="hero" id="overview">
+    <span class="hero-eyebrow">COR2646 CITIES OF PARADOX • Interactive Thematic Map</span>
+    <h1>Hong Kong and Singapore as Places of Emergence: A Food Journey</h1>
+    <p class="hero-subtitle">
+      Select any of the pairings below to find out how they link, contrast and/or illuminate Singapore and Hong Kong!
+    </p>
+
+    <div class="pair-index-grid">
+      <a class="pair-index-card" href="#pair-1">
+        <div>
+          <div class="pair-index-num">Pair 01 • 8 Map Stops</div>
+          <div class="pair-index-title">Mango Sago &amp;<br>Mango Pomelo Sago</div>
+        </div>
+        <div class="pair-index-status">Explore →</div>
+      </a>
+
+      <a class="pair-index-card" href="#pair-2">
+        <div>
+          <div class="pair-index-num">Pair 02 • 6 Map Stops</div>
+          <div class="pair-index-title">Char Siew &amp;<br>Satay</div>
+        </div>
+        <div class="pair-index-status">Explore →</div>
+      </a>
+
+      <a class="pair-index-card" href="#pair-3">
+        <div>
+          <div class="pair-index-num">Pair 03 • 4 Map Stops</div>
+          <div class="pair-index-title">Hong Kong Macaroni Soup &amp;<br>Hainanese-Western Cuisine</div>
+        </div>
+        <div class="pair-index-status">Explore →</div>
+      </a>
+
+      <a class="pair-index-card" href="#pair-4">
+        <div>
+          <div class="pair-index-num">Pair 04 • 5 Map Stops</div>
+          <div class="pair-index-title">Lo Mai Chi &amp;<br>Onde-Onde</div>
+        </div>
+        <div class="pair-index-status">Explore →</div>
+      </a>
+
+      <a class="pair-index-card" href="#pair-5">
+        <div>
+          <div class="pair-index-num">Pair 05 • 4 Map Stops</div>
+          <div class="pair-index-title">Hong Kong-style Milk Tea &amp;<br>Yakult Green Tea</div>
+        </div>
+        <div class="pair-index-status">Explore →</div>
+      </a>
+    </div>
+  </section>
+
+  <main>
+    <!-- PAIR 1 -->
+    <section class="pairing-section" id="pair-1">
+      <div class="section-header">
+        <div class="section-badge-row">
+          <span class="pair-badge">Pair 01</span>
+          <span class="city-pill hk">Hong Kong: Mango Sago</span>
+          <span class="city-pill sg">Singapore: Mango Pomelo Sago</span>
+        </div>
+        <h2>Mango Sago / Mango Pomelo Sago</h2>
+        <p class="section-lead">
+          Trace the two converging threads: Southeast Asian sago palm starch and Chinese <em>tong sui</em> sweet soups. Click any map pin or stop pill to inspect the area callout.
+        </p>
+      </div>
+      <div class="interactive-map-mount" data-pair="pair-1"></div>
+    </section>
+
+    <!-- PAIR 2 -->
+    <section class="pairing-section" id="pair-2">
+      <div class="section-header">
+        <div class="section-badge-row">
+          <span class="pair-badge">Pair 02</span>
+          <span class="city-pill hk">Hong Kong: Char Siew</span>
+          <span class="city-pill sg">Singapore: Satay &amp; Local Char Siew</span>
+        </div>
+        <h2>Char Siew / Satay</h2>
+        <p class="section-lead">
+          Follow the spice trade linking China, Arabia &amp; India, Srivijaya, Hong Kong, and Singapore. Use the route filters or click any pin to explore each area's history.
+        </p>
+      </div>
+      <div class="interactive-map-mount" data-pair="pair-2"></div>
+    </section>
+
+    <!-- PAIR 3 -->
+    <section class="pairing-section" id="pair-3">
+      <div class="section-header">
+        <div class="section-badge-row">
+          <span class="pair-badge">Pair 03</span>
+          <span class="city-pill hk">Hong Kong: Macaroni Soup</span>
+          <span class="city-pill sg">Singapore: Hainanese Western Cuisine</span>
+        </div>
+        <h2>Hong Kong Macaroni Soup / Hainanese Western Cuisine</h2>
+        <p class="section-lead">
+          Trace how Italian pasta, Victorian British cookbooks, and Hainanese migration shaped two colonial-era comfort foods. Click any pin or stop pill to view the callout.
+        </p>
+      </div>
+      <div class="interactive-map-mount" data-pair="pair-3"></div>
+    </section>
+
+    <!-- PAIR 4 -->
+    <section class="pairing-section" id="pair-4">
+      <div class="section-header">
+        <div class="section-badge-row">
+          <span class="pair-badge">Pair 04</span>
+          <span class="city-pill hk">Hong Kong: Lo Mai Chi</span>
+          <span class="city-pill sg">Singapore: Onde-Onde</span>
+        </div>
+        <h2>Lo Mai Chi / Onde-Onde</h2>
+        <p class="section-lead">
+          Trace the shared maritime trade of glutinous rice and coconut across Southeast Asia, South Sulawesi, Foshan, Hong Kong/Macau, and Singapore. Click any pin or stop pill to explore.
+        </p>
+      </div>
+      <div class="interactive-map-mount" data-pair="pair-4"></div>
+    </section>
+
+    <!-- PAIR 5 -->
+    <section class="pairing-section" id="pair-5">
+      <div class="section-header">
+        <div class="section-badge-row">
+          <span class="pair-badge">Pair 05</span>
+          <span class="city-pill hk">Hong Kong: HK Milk Tea</span>
+          <span class="city-pill sg">Singapore: Yakult Green Tea</span>
+        </div>
+        <h2>HK Milk Tea / Yakult Green Tea</h2>
+        <p class="section-lead">
+          Trace Hong Kong-style milk tea, Taiwanese bubble tea origins, and Singapore's post-1985 consumer boom. Click any pin or stop pill to view the callout.
+        </p>
+      </div>
+      <div class="interactive-map-mount" data-pair="pair-5"></div>
+    </section>
+
+    <!-- REFERENCES SECTION -->
+    <section class="references-section" id="references">
+      <div class="section-header">
+        <div class="section-badge-row">
+          <span class="pair-badge">Bibliography</span>
+        </div>
+        <h2>References</h2>
+        <p class="section-lead">
+          Formatted in APA 7th edition.
+        </p>
+      </div>
+
+      <ol class="ref-list">
+        <li class="ref-box">
+          <p class="ref-apa">Ahuja, S. C., Ahuja, S., &amp; Ahuja, U. (2014). Coconut – history, uses, and folklore. <em>Asian Agri-History</em>, <em>18</em>(3), 221–248. <a href="https://www.researchgate.net/publication/290976239_Coconut_-_History_uses_and_folklore" target="_blank" rel="noopener">https://www.researchgate.net/publication/290976239_Coconut_-_History_uses_and_folklore</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Beeton, I. (1861). <em>Mrs Beeton’s household management</em> (p. 70). Wordsworth Editions. <a href="https://books.google.com/books?id=XIlZuk8IvWcC" target="_blank" rel="noopener">https://books.google.com/books?id=XIlZuk8IvWcC</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Britannica. (2026, October 25). <em>Sago</em>. Encyclopedia Britannica. <a href="https://www.britannica.com/topic/sago" target="_blank" rel="noopener">https://www.britannica.com/topic/sago</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Cantonese Guy. (2026a, August 17). <em>Char siu (叉燒): The 1,000-year-old Cantonese BBQ pork that still rules Hong Kong windows</em>. <a href="https://cantoneseguy.com/blogs/news/char-siu-cantonese-bbq-pork-hong-kong-guangdong-history" target="_blank" rel="noopener">https://cantoneseguy.com/blogs/news/char-siu-cantonese-bbq-pork-hong-kong-guangdong-history</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Cantonese Guy. (2026b, November 11). <em>Hong Kong macaroni soup (火腿通粉): How a British pasta became the Cantonese cha chaan teng breakfast Hong Kong can’t start the day without</em>. <a href="https://cantoneseguy.com/blogs/news/hong-kong-macaroni-soup-fo-teoi-tung-fan-cha-chaan-teng-breakfast-history" target="_blank" rel="noopener">https://cantoneseguy.com/blogs/news/hong-kong-macaroni-soup-fo-teoi-tung-fan-cha-chaan-teng-breakfast-history</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Cantonese Guy. (2026c, November 13). <em>Hong Kong roast goose (燒鵝): The lineage of Pitt Street, Yung Kee’s Wellington Street charcoal ovens, and why Cantonese winter isn’t winter without it</em>. <a href="https://cantoneseguy.com/blogs/news/hong-kong-roast-goose-siu-ngo-yung-kee-wellington-street-sham-tseng-cantonese-history" target="_blank" rel="noopener">https://cantoneseguy.com/blogs/news/hong-kong-roast-goose-siu-ngo-yung-kee-wellington-street-sham-tseng-cantonese-history</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Cheang, B. (2023). Anglo-Chinese capitalism in Hong Kong and Singapore: Origins, reproduction &amp; divergence. <em>The Journal of Development Studies</em>, <em>59</em>(6), 1–24. <a href="https://doi.org/10.1080/00220388.2023.2182685" target="_blank" rel="noopener">https://doi.org/10.1080/00220388.2023.2182685</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Chen, V. Y., &amp; Lin, P. M. C. (2024). The power of nostalgic emotion: How Hong Kong traditional tong sui influences Generation Z’s purchase intentions. <em>British Food Journal</em>, <em>126</em>(8), 3197–3220. <a href="https://doi.org/10.1108/bfj-01-2024-0006" target="_blank" rel="noopener">https://doi.org/10.1108/bfj-01-2024-0006</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Chih Lin, C. (2026, October 22). <em>The 86-year-old roast meat master behind shuttered Chinatown stall now working at People’s Park Food Centre</em>. CNA Lifestyle. <a href="https://cnalifestyle.channelnewsasia.com/dining/roast-master-chinatown-peoples-park-complex-590706" target="_blank" rel="noopener">https://cnalifestyle.channelnewsasia.com/dining/roast-master-chinatown-peoples-park-complex-590706</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Conceicao, J. L. (n.d.). <em>Hainanese community</em>. National Library Board. Retrieved November 26, 2026, from <a href="https://www.nlb.gov.sg/main/article-detail?cmsuuid=b6af752e-68d5-4199-a899-2391a239a5e5" target="_blank" rel="noopener">https://www.nlb.gov.sg/main/article-detail?cmsuuid=b6af752e-68d5-4199-a899-2391a239a5e5</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Dumont, N. (2019, October 22). <em>8 ondeh-ondeh desserts for the ultimate coconut and gula melaka treat</em>. EATBOOK.SG. <a href="https://eatbook.sg/ondeh-ondeh-desserts/" target="_blank" rel="noopener">https://eatbook.sg/ondeh-ondeh-desserts/</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Etymonline. (n.d.-a). <em>Coco: Etymology, origin &amp; meaning</em>. Online Etymology Dictionary. Retrieved November 26, 2026, from <a href="https://www.etymonline.com/word/coco" target="_blank" rel="noopener">https://www.etymonline.com/word/coco</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Etymonline. (n.d.-b). <em>Etymology of sago</em>. Online Etymology Dictionary. Retrieved November 26, 2026, from <a href="https://www.etymonline.com/word/sago" target="_blank" rel="noopener">https://www.etymonline.com/word/sago</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Grace. (2017, July 7). <em>Muah chee – Southeast Asian recipes</em>. Nyonya Cooking. <a href="https://www.nyonyacooking.com/recipes/muah-chee~SyXSdPiPzcWX" target="_blank" rel="noopener">https://www.nyonyacooking.com/recipes/muah-chee~SyXSdPiPzcWX</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Health Promotion Board. (2025). <em>Unlocking the truth about fats: How to choose the right ones for your health</em>. HealthHub. <a href="https://www.healthhub.sg/well-being-and-lifestyle/food-diet-and-nutrition/getting-the-fats-right" target="_blank" rel="noopener">https://www.healthhub.sg/well-being-and-lifestyle/food-diet-and-nutrition/getting-the-fats-right</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Inge, N. (Ed.). (2022, February 4). <em>Manisnya kue malako dengan isian gula merah, patut dicoba!</em> Melayupedia. <a href="https://www.melayupedia.com/berita/1694/manisnya-kue-malako-dengan-isian-gula-merah-patut-dicoba" target="_blank" rel="noopener">https://www.melayupedia.com/berita/1694/manisnya-kue-malako-dengan-isian-gula-merah-patut-dicoba</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Judy. (2018, March 8). <em>Coconut peanut mochi (nuo mi ci – 糯米糍)</em>. The Woks of Life. <a href="https://thewoksoflife.com/peanut-mochi-coconut/" target="_blank" rel="noopener">https://thewoksoflife.com/peanut-mochi-coconut/</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Kueh, R. (2025, November 14). <em>Singaporean Chinese hawker food: History and evolution</em>. Culturepaedia: One-Stop Repository on Singapore Chinese Culture. <a href="https://culturepaedia.singaporeccc.org.sg/popular-culture/singaporean-chinese-hawker-food-history-and-evolution/" target="_blank" rel="noopener">https://culturepaedia.singaporeccc.org.sg/popular-culture/singaporean-chinese-hawker-food-history-and-evolution/</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Li, M. (2024, November 21). <em>The evolution of char siu: A timeless delicacy across generations</em>. MICHELIN Guide. <a href="https://guide.michelin.com/en/article/features/iconic-dish-char-siu-history-recommendation" target="_blank" rel="noopener">https://guide.michelin.com/en/article/features/iconic-dish-char-siu-history-recommendation</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Lok, C. (2024, February 23). <em>Where to find the best char siu in Hong Kong, according to a local</em>. Sassy Hong Kong. <a href="https://www.sassyhongkong.com/best-char-siu-in-hong-kong-local-eat-drink/" target="_blank" rel="noopener">https://www.sassyhongkong.com/best-char-siu-in-hong-kong-local-eat-drink/</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Mak, V. S.-W. (2020). The heritagization of milk tea: Cultural governance and placemaking in Hong Kong. <em>Asian Anthropology</em>, <em>20</em>(1), 30–46. <a href="https://doi.org/10.1080/1683478x.2020.1773616" target="_blank" rel="noopener">https://doi.org/10.1080/1683478x.2020.1773616</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Moore, R. (2026, August 31). <em>Unraveling the origins of sago: Is sago Chinese?</em> ParadiseForFood. <a href="https://paradiseforfood.com/is-sago-chinese/" target="_blank" rel="noopener">https://paradiseforfood.com/is-sago-chinese/</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Moseley, B. L. (2019, November 9). <em>An Ambonese account on the arrival of the Portuguese</em>. Benjamin L. Moseley. <a href="https://benjaminlmoseley.com/2019/11/08/an-ambonese-account-on-the-arrival-of-the-portuguese/" target="_blank" rel="noopener">https://benjaminlmoseley.com/2019/11/08/an-ambonese-account-on-the-arrival-of-the-portuguese/</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">National Parks Board. (2025). <em>Metroxylon sagu</em>. <a href="https://www.nparks.gov.sg/florafaunaweb/flora/4/4/4441" target="_blank" rel="noopener">https://www.nparks.gov.sg/florafaunaweb/flora/4/4/4441</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Ngo, H. (2022, September 19). <em>Tong sui: The sweet Cantonese treat you should know</em>. Tasting Table. <a href="https://www.tastingtable.com/1014145/tong-sui-the-sweet-cantonese-treat-you-should-know/" target="_blank" rel="noopener">https://www.tastingtable.com/1014145/tong-sui-the-sweet-cantonese-treat-you-should-know/</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Nugraha, A. K. E. (2022, May 11). <em>Filosofi onde-onde, kue wajib ritual syukuran Bugis-Makassar sejak abad 13–14</em>. detikSulsel. <a href="https://www.detik.com/sulsel/kuliner/d-6073160/filosofi-onde-onde-kue-wajib-ritual-syukuran-bugis-makassar-sejak-abad-13-14" target="_blank" rel="noopener">https://www.detik.com/sulsel/kuliner/d-6073160/filosofi-onde-onde-kue-wajib-ritual-syukuran-bugis-makassar-sejak-abad-13-14</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Olsen, K. M., &amp; Purugganan, M. D. (2002). Molecular evidence on the origin and evolution of glutinous rice. <em>Genetics</em>, <em>162</em>(2), 941–950. <a href="https://pmc.ncbi.nlm.nih.gov/articles/instance/1462305/pdf/12399401.pdf" target="_blank" rel="noopener">https://pmc.ncbi.nlm.nih.gov/articles/instance/1462305/pdf/12399401.pdf</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Oxford University Press. (n.d.). Sago. In <em>Oxford English Dictionary</em>. Retrieved November 26, 2026, from <a href="https://www.oed.com/dictionary/sago_n" target="_blank" rel="noopener">https://www.oed.com/dictionary/sago_n</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Shili. (2020a). Mango sago [Online image]. In <em>Yahoo! News</em>. <a href="https://tw.news.yahoo.com/%E9%A3%9F%E5%8A%9B-%E6%A5%8A%E6%9E%9D%E7%94%98%E9%9C%B2%E5%8E%9F%E4%BE%86%E6%98%AF%E9%A6%99%E6%B8%AF%E9%A6%96%E5%89%B5-%E7%9B%A4%E9%BB%9E8%E5%A4%A7%E6%B8%AF%E5%BC%8F%E7%B3%96%E6%B0%B4%E7%B6%93%E5%85%B8%E5%91%B3-015658779.html?guccounter=1" target="_blank" rel="noopener">https://tw.news.yahoo.com/%E9%A3%9F%E5%8A%9B-%E6%A5%8A%E6%9E%9D%E7%94%98%E9%9C%B2%E5%8E%9F%E4%BE%86%E6%98%AF%E9%A6%99%E6%B8%AF%E9%A6%96%E5%89%B5-%E7%9B%A4%E9%BB%9E8%E5%A4%A7%E6%B8%AF%E5%BC%8F%E7%B3%96%E6%B0%B4%E7%B6%93%E5%85%B8%E5%91%B3-015658779.html?guccounter=1</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Shili. (2020b). Red bean paste [Online image]. In <em>Yahoo! News</em>. <a href="https://tw.news.yahoo.com/%E9%A3%9F%E5%8A%9B-%E6%A5%8A%E6%9E%9D%E7%94%98%E9%9C%B2%E5%8E%9F%E4%BE%86%E6%98%AF%E9%A6%99%E6%B8%AF%E9%A6%96%E5%89%B5-%E7%9B%A4%E9%BB%9E8%E5%A4%A7%E6%B8%AF%E5%BC%8F%E7%B3%96%E6%B0%B4%E7%B6%93%E5%85%B8%E5%91%B3-015658779.html" target="_blank" rel="noopener">https://tw.news.yahoo.com/%E9%A3%9F%E5%8A%9B-%E6%A5%8A%E6%9E%9D%E7%94%98%E9%9C%B2%E5%8E%9F%E4%BE%86%E6%98%AF%E9%A6%99%E6%B8%AF%E9%A6%96%E5%89%B5-%E7%9B%A4%E9%BB%9E8%E5%A4%A7%E6%B8%AF%E5%BC%8F%E7%B3%96%E6%B0%B4%E7%B6%93%E5%85%B8%E5%91%B3-015658779.html</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Sun, C. (2012, August 7). Dessert chain offers place to chill out. <em>South China Morning Post</em>. <a href="https://www.scmp.com/article/1014253/dessert-chain-offers-place-chill-out" target="_blank" rel="noopener">https://www.scmp.com/article/1014253/dessert-chain-offers-place-chill-out</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">TasteAtlas. (2026, November 15). <em>6 best chicken dishes in the United Kingdom</em>. <a href="https://www.tasteatlas.com/best-rated-chicken-dishes-in-united-kingdom" target="_blank" rel="noopener">https://www.tasteatlas.com/best-rated-chicken-dishes-in-united-kingdom</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Tay, L. (2014, June 23). <em>Char: One of a kind char siew!</em> ieatishootipost. <a href="https://ieatishootipost.sg/char-one-of-a-kind-char-siew/" target="_blank" rel="noopener">https://ieatishootipost.sg/char-one-of-a-kind-char-siew/</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">The Gastrographer. (2026, October 31). <em>Sago palm – historical culinary journey</em>. <a href="https://thegastrographer.com/ingredient/sago-palm" target="_blank" rel="noopener">https://thegastrographer.com/ingredient/sago-palm</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">The Missing Lok Ness. (2023). <em>Hong Kong style macaroni soup with ham</em> [Online image]. <a href="https://www.themissinglokness.com/wp-content/uploads/2023/02/BJG_1136-sf.jpg" target="_blank" rel="noopener">https://www.themissinglokness.com/wp-content/uploads/2023/02/BJG_1136-sf.jpg</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">The Nutgraf Editorial Team. (2026, June 5). <em>From temples to shopping malls: A century of Chinese vegetarian food in Singapore</em>. Culturepaedia: One-Stop Repository on Singapore Chinese Culture. <a href="https://culturepaedia.singaporeccc.org.sg/popular-culture/from-temples-to-shopping-malls-a-century-of-chinese-vegetarian-food-in-singapore/" target="_blank" rel="noopener">https://culturepaedia.singaporeccc.org.sg/popular-culture/from-temples-to-shopping-malls-a-century-of-chinese-vegetarian-food-in-singapore/</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">u/lumda. (2016). <em>Charsiew</em> [Online forum post]. Reddit. <a href="https://www.reddit.com/r/singapore/comments/6kz49u/charsiew" target="_blank" rel="noopener">https://www.reddit.com/r/singapore/comments/6kz49u/charsiew</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Vasu, S. (2017). <em>Satay</em>. National Library Board. <a href="https://www.nlb.gov.sg/main/article-detail?cmsuuid=fb9c1ebd-90ee-4216-8cd8-004f68186e24" target="_blank" rel="noopener">https://www.nlb.gov.sg/main/article-detail?cmsuuid=fb9c1ebd-90ee-4216-8cd8-004f68186e24</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Where to Eat. (2026, September 10). <em>Satay in Singapore: 19 best stalls to try (2026)</em>. <a href="https://wheretoeat.com.sg/best-satay-in-singapore/" target="_blank" rel="noopener">https://wheretoeat.com.sg/best-satay-in-singapore/</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Wong, M. H. (2020, April 30). <em>The rise of bubble tea, one of Taiwan’s most beloved beverages</em>. CNN. <a href="https://edition.cnn.com/travel/article/taiwan-bubble-tea-origins" target="_blank" rel="noopener">https://edition.cnn.com/travel/article/taiwan-bubble-tea-origins</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">Yakult (Singapore) Pte. Ltd. (n.d.). <em>History</em>. Yakult Singapore. Retrieved November 26, 2026, from <a href="https://yakult.com.sg/history/" target="_blank" rel="noopener">https://yakult.com.sg/history/</a></p>
+        </li>
+        <li class="ref-box">
+          <p class="ref-apa">何. (2015, April 22). <em>手搖茶飲故鄉！市佔前2名台南來的</em>. TVBS新聞網. <a href="https://news.tvbs.com.tw/life/576825" target="_blank" rel="noopener">https://news.tvbs.com.tw/life/576825</a></p>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Generated from the Milanote board <a href="https://app.milanote.com/1XsZfB12LJBsfn?p=WGacLs2Hm5m" target="_blank" rel="noopener">COP: Hong Kong and Singapore as Places of Emergence</a>.
+    </p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">&uarr; Top</button>
+
+  <!-- Expanded Callout Modal Overlay -->
+  <div class="callout-modal-backdrop" id="calloutModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="callout-modal">
+      <div class="callout-modal-header">
+        <div class="callout-meta-left">
+          <span class="callout-place" id="modalPlace"></span>
+          <span class="callout-era" id="modalEra"></span>
+        </div>
+        <button type="button" class="callout-modal-close" id="modalCloseBtn" aria-label="Close expanded view">&times; Close</button>
+      </div>
+      <div class="callout-modal-scroll" id="modalScroll">
+        <h3 class="callout-title" id="modalTitle"></h3>
+        <div class="callout-split" id="modalSplit">
+          <div class="callout-body" id="modalBody"></div>
+          <div class="callout-images" id="modalImages"></div>
+        </div>
+      </div>
+      <div class="callout-modal-footer">
+        <button type="button" class="callout-nav-btn" id="modalPrevBtn">&larr; Prev Stop</button>
+        <span class="callout-counter" id="modalCounter"></span>
+        <button type="button" class="callout-nav-btn" id="modalNextBtn">Next Stop &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="map-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
